@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PropPulse Accelerator - Weightless Edition</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-weightless.css">
+</head>
+
+<body>
+    <div class="ambient-light"></div>
+    <div class="ambient-light-2"></div>
+
+    <header class="floating-header">
+        <div class="logo">PropPulse</div>
+        <nav>
+            <a href="#stress-test">Simulator</a>
+            <a href="#candidates">Candidates</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="stress-test" class="hero-section">
+            <h1 class="hero-title">Find Your Next High-Growth Suburb <br><span class="highlight">Backed by Data, Not
+                    Guesswork.</span></h1>
+
+            <!-- Weightless Investment Console (Budget Selector) -->
+            <div class="weightless-budget-container">
+                <span class="floating-label">Initial Investment Budget</span>
+
+                <div class="floating-slab">
+                    <div class="slab-content">
+                        <span class="currency-symbol">$</span>
+                        <input type="text" class="budget-input" id="budget-dynamic-text"
+                            placeholder="Type Budget (e.g. 700k)">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Market Metrics -->
+            <div class="market-metrics">
+                <div class="metric-item">
+                    <span class="metric-number">15,000+</span>
+                    <span class="metric-label">Market Scale</span>
+                    <p class="metric-desc">Scrutinizing 15,000+ suburbs daily using advanced ABS and CoreLogic data
+                        sets.</p>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-number">75%+</span>
+                    <span class="metric-label">Growth Indicator</span>
+                    <p class="metric-desc">Identify suburbs with a Demand-Supply Ratio (DSR) above 75%, indicating high
+                        capital growth potential.</p>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-number">&lt;1.2%</span>
+                    <span class="metric-label">Yield Standards</span>
+                    <p class="metric-desc">Filter exclusively for investment-grade properties with vacancy rates under
+                        1.2%.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Candidate Teaser Section -->
+        <section id="candidates" class="candidates-section">
+            <h2 class="section-title">Algorithmically Ranked Suburbs <br>Matching Your Budget</h2>
+            <div class="cards-container scroll-container">
+                <!-- Locked Card 1 -->
+                <div class="glass-card card-locked">
+                    <div class="padlock-icon">🔒</div>
+                    <div class="card-blur-overlay">
+                        <span class="blur-text">LOCKED IDENTITY</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="badges">
+                            <span class="badge">DSR: 78%</span>
+                            <span class="badge">Vacancy: 0.8%</span>
+                        </div>
+                        <div class="card-stats">
+                            <p>Days on Market: <strong>12</strong></p>
+                            <p>Growth Proj: <strong>High</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Locked Card 2 -->
+                <div class="glass-card card-locked">
+                    <div class="padlock-icon">🔒</div>
+                    <div class="card-blur-overlay">
+                        <span class="blur-text">LOCKED IDENTITY</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="badges">
+                            <span class="badge">DSR: 82%</span>
+                            <span class="badge">Vacancy: 1.1%</span>
+                        </div>
+                        <div class="card-stats">
+                            <p>Days on Market: <strong>18</strong></p>
+                            <p>Yield: <strong>5.2%</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Locked Card 3 -->
+                <div class="glass-card card-locked">
+                    <div class="padlock-icon">🔒</div>
+                    <div class="card-blur-overlay">
+                        <span class="blur-text">LOCKED IDENTITY</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="badges">
+                            <span class="badge">DSR: 75%</span>
+                            <span class="badge">Vacancy: 1.5%</span>
+                        </div>
+                        <div class="card-stats">
+                            <p>Days on Market: <strong>22</strong></p>
+                            <p>Entry: <strong>$550k</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GHL Form Section - Always Visible at End -->
+        <section class="form-section">
+            <h2
+                style="font-size:2rem;font-weight:800;margin-bottom:0.5rem;text-align:center;background:linear-gradient(135deg,#7C3AED,#2563EB);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">
+                Get Your Full Strategy Report</h2>
+            <p style="text-align:center;color:#6b7280;margin-bottom:1.5rem;">Fill in your details below to unlock your
+                personalised suburb shortlist.</p>
+            <div class="ghl-form-inline">
+                <iframe src="https://api.leadconnectorhq.com/widget/form/b7iMLSrRiqy0UkVyoRu3"
+                    style="width:100%;height:859px;border:none;border-radius:12px;display:block;" id="inline-ghl-form"
+                    data-layout="{'id':'INLINE'}" data-trigger-type="alwaysShow" data-trigger-value=""
+                    data-activation-type="alwaysActivated" data-activation-value=""
+                    data-deactivation-type="neverDeactivate" data-deactivation-value="" data-form-name="propwise"
+                    data-height="859" data-layout-iframe-id="inline-ghl-form" data-form-id="b7iMLSrRiqy0UkVyoRu3"
+                    title="propwise">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Sticky Footer Chat -->
+    <div class="sticky-chat">
+        <div class="chat-bubble">Need Guidance?</div>
+        <div class="chat-icon">💬</div>
+    </div>
+
+    <!-- GHL Modal -->
+    <div id="ghl-modal" class="modal-overlay">
+        <div class="modal-glass-container">
+            <button class="modal-close-btn" id="modal-close">&times;</button>
+            <div class="modal-content">
+                <iframe src="https://api.leadconnectorhq.com/widget/form/b7iMLSrRiqy0UkVyoRu3"
+                    style="width:100%;height:100%;border:none;border-radius:3px" id="inline-b7iMLSrRiqy0UkVyoRu3"
+                    data-layout="{'id':'INLINE'}" data-trigger-type="alwaysShow" data-trigger-value=""
+                    data-activation-type="alwaysActivated" data-activation-value=""
+                    data-deactivation-type="neverDeactivate" data-deactivation-value="" data-form-name="propwise"
+                    data-height="859" data-layout-iframe-id="inline-b7iMLSrRiqy0UkVyoRu3"
+                    data-form-id="b7iMLSrRiqy0UkVyoRu3" title="propwise">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
